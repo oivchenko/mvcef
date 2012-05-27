@@ -15,6 +15,7 @@ namespace Mvcef.Controllers
             ViewBag.Message = "Welcome to ASP.NET MVC_!";
             var db = new AgiContext();
             var u = new Employer() { Id=1, Name = "hhhh----" };
+            //hhhhhhhhhh
             db.Employers.Add(u);
             db.SaveChanges();
             var z = db.Employers.ToList();
