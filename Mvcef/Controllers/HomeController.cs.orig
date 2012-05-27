@@ -18,6 +18,7 @@ namespace Mvcef.Controllers
             var u = new Employer() { Id=1, Name = "hhhh555555" };
 =======
             var u = new Employer() { Id=1, Name = "hhhh----" };
+            //hhhhhhhhhh
 >>>>>>> branch01
             db.Employers.Add(u);
             db.SaveChanges();
